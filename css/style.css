@@ -1,0 +1,98 @@
+
+
+/* Sobre */
+.col-md-6 img {
+  width: 19.5rem;
+  height: 20.6rem;
+  padding-left: 10%;
+}
+
+/* CSS da TIMELINE */
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 59%);
+  position: relative;
+  list-style: none;
+  margin-right: 30%;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-icon img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: white;
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-muted {
+  text-align: justify;
+}
+
+.timeline-title {
+  color: #4C35D2;
+}
+
+.fw-bold {
+  color: black;
+}
+
+.py-5 {
+  margin-left: 40%;
+  padding-bottom: 0px !important;
+}
+
+.py-6 {
+  text-align: center;
+}
+
+.col16 {
+  width: 40% !important;
+
+}
+.col-md-6 img{
+  margin-left: 60%;
+  width: auto !important;
+  padding-left: 0px !important;
+}
+.row{
+  margin-bottom: 3%;
+}
+.btn-primary{
+  background-color: #4C35D2 ;
+  margin: 2% 0px 0px 5%;
+  height: 50px;
+  width: 180px;
+  font-size: large;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+  font-weight: 550;
+}
+.imagem{
+  border-radius: 50px 50px 50px 50px ;
+
+}
+
+.timeline-with-icons-2 {
+  border-left: 0px;
+}
