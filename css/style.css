@@ -46,6 +46,7 @@
 
 .text-muted {
   text-align: justify;
+  color: black;
 }
 
 .timeline-title {
@@ -90,9 +91,29 @@
 }
 .imagem{
   border-radius: 50px 50px 50px 50px ;
+}
 
+p{
+  color: black;
+}
+
+.d-inline-flex, .p-2{
+  color: black;
 }
 
 .timeline-with-icons-2 {
   border-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .py-5{
+    margin-left: 10%;
+  }
+  .timeline-with-icons{
+    margin: 0px 8%;
+  }
+  .bbtn{
+    align-items: center;
+  }
+  
 }
