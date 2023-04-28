@@ -92,6 +92,28 @@
 .imagem{
   border-radius: 50px 50px 50px 50px ;
 }
+.navbar{
+  background-color: #4C35D2 !important;
+}
+.title-nav{
+  color: white;
+}
+.nav-link{
+  color: white;
+  font-size: larger;
+}
+.nav-link:hover{
+  color: white !important;
+}
+.navbar-collapse{
+  flex-grow:0;
+}
+.navbar-brand{
+  margin-left: 12%;
+}
+.d-flex{
+  margin-right: 12%;
+}
 
 p{
   color: black;
