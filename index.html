@@ -25,25 +25,23 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <!-- Container wrapper -->
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-scroll">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
                     <h2 class="title-nav"><strong>Eduardo Ferreira</strong></h2>
                 </a>
-                <!-- Toggle button -->
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+                    <span class="d-flex justify-content-start align-items-center">
+                        <i class="fas fa-bars"></i>
+                    </span>
                 </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
 
-                <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse d-flex align-items-center" id="navbarCenteredExample">
-                    <!-- Left links -->
-                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <ul class="navbar-nav flex-row">
 
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#"><strong>Sobre</strong></a>
                         </li>
                         <li class="nav-item">
@@ -55,19 +53,18 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#"><strong>Contato</strong></a>
                         </li>
-
                     </ul>
-                    <!-- Left links -->
                 </div>
-                <!-- Collapsible wrapper -->
             </div>
-            <!-- Container wrapper -->
         </nav>
+        <!-- Navbar -->
+
+        <!-- HEADER-->
         <div class="left-section">
             <h5><strong class="titulo-header">Eduardo Ferreira</strong></h5>
             <p><strong class="subtitulo">| Desenvolvedor Back-end |</strong></p>
-            <div class="col-md-6 bbtn sobre">
-                <a href="" target="_blank" type="button" class="btn btn-primary">Contato</a>
+            <div class="col-md-5 bbtn sobre">
+                <a href="#sobre" type="button" class="btn btn-primary">Contato</a>
 
             </div>
         </div>
@@ -78,13 +75,16 @@
     </header>
 
     <main>
-        <!-- Sobre -->
+        <!-- SOBRE -->
+
+        <!-- Título -->
         <div class="py-6" style="padding-bottom: 3%; margin-top: 10%;">
             <h3 class="timeline-title">Sobre</h3>
             <h4 class="fw-bold">Venha me conhecer um pouco mais</h4>
         </div>
-        <div style="margin: 0px 6% 20%;">
-            <div class="row">
+        <!-- Texto + Imagem -->
+        <div style="margin: 0px 6% 16%;">
+            <div class="row" id="sobre">
                 <div class="col-md-6 col16">
                     <img class="imagem" src="./assets/eu-boa.jpg" alt="">
                 </div>
@@ -112,13 +112,15 @@
             </div>
         </div>
 
-        <!-- Linha do tempo -->
+        <!-- LINHA DO TEMPO -->
+
+        <!-- Título -->
         <div class="py-6">
             <h3 class="timeline-title">Resumo</h3>
             <h3 class="fw-bold">Minhas qualificações</h3>
             <p>Um pouco da minha trajetória no mundo da programação</p>
         </div>
-        <!-- Section: Timeline -->
+        <!-- Timeline -->
         <div class="d-flex justify-content-center">
 
             <!-- Lado direto da TIMELINE -->
@@ -216,7 +218,7 @@
                                 Programação Orientada a Objetos (Java)<br>
                                 Estrutura de Dados (Java)<br>
                                 Programação Funcional (Kotlin)<br>
-                                Desenvolvimento Desktop (C, Java/FX)<br>
+                                Desenvolvimento Desktop (C, JavaFX)<br>
                                 Banco de dados (SQL)<br>
                                 Fundamentos de Hardware e de Redes
                             </p>
@@ -226,11 +228,23 @@
 
             </section>
         </div>
-        <!-- Section: Timeline -->
+
+        <!-- Skills -->
+        <div class="py-6" style="padding-bottom: 3%; margin-top: 7%;">
+            <h3 class="timeline-title">Especialidades</h3>
+            <h4 class="fw-bold">Skills</h4>
+        </div>
+
+
     </main>
+
+    <footer>
+
+    </footer>
 
 </body>
 
 </html>
 
 <script type="text/javascript" src="./js/idade.js"></script>
+<script type="text/javascript" src="./js/transição.js"></script>

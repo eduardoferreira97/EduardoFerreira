@@ -92,11 +92,11 @@
 .imagem{
   border-radius: 50px 50px 50px 50px ;
 }
-.navbar{
-  background-color: #4C35D2 !important;
-}
+
 .title-nav{
   color: white;
+  font-size: 40px;
+  margin-left: 15%;
 }
 .nav-link{
   color: white;
@@ -108,9 +108,7 @@
 .navbar-collapse{
   flex-grow:0;
 }
-.navbar-brand{
-  margin-left: 12%;
-}
+
 .d-flex{
   margin-right: 12%;
 }
@@ -159,7 +157,10 @@ header {
 }
 
 .left-section {
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  align-items: center;
+  text-align: center;
+  width: 100%;
 
 }
 
@@ -169,14 +170,17 @@ header {
 }
 .subtitulo{
   font-size: 30px;
-  margin-left: 16%;
   font-family: 'Lora';
+}
+
+.sobre{
+  align-items: center;
 }
 
 .right-section {
   list-style: none;
   display: flex;
-  margin-right: 10%;
+  margin-right: 13%;
 }
 
 .right-section img {
@@ -190,6 +194,10 @@ header {
     flex-direction: column;
     /* justify-content: space-between;
     align-items: center; */
+  }
+
+  .col-md-5 {
+    width: 100%;
   }
 }
 
@@ -212,6 +220,43 @@ header {
   .sobre{
     margin: 0px 27% 0px 27%;
   }
+  .navbar-nav{
+    flex-direction: column !important;
+  }
 }
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler .fa-bars {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler .fa-bars {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #4C35D2;
+  transition: background-color 0.2s linear;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.solid-nav {
+  background-color: #aaa;
+  transition: background-color 0.2s linear;
+}
+
+
+
+
 
 
