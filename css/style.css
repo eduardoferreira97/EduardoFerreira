@@ -1,11 +1,6 @@
 
 
-/* Sobre */
-.col-md-6 img {
-  width: 19.5rem;
-  height: 20.6rem;
-  padding-left: 10%;
-}
+
 
 /* CSS da TIMELINE */
 
@@ -70,6 +65,12 @@
   width: 40% !important;
 
 }
+/* Sobre */
+.col-md-6 img {
+  width: 19.5rem;
+  height: 20.6rem;
+  padding-left: 10%;
+}
 .col-md-6 img{
   margin-left: 60%;
   width: auto !important;
@@ -78,6 +79,25 @@
 .row{
   margin-bottom: 3%;
 }
+
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.progress{
+  width: 30%;
+
+}
+
+.about-left{
+  width: 30%;
+  text-align: right;
+  padding-right: 9%;
+}
+
 .btn-primary{
   background-color: #4C35D2 ;
   margin: 2% 0px 0px 0px;
@@ -96,7 +116,8 @@
 .title-nav{
   color: white;
   font-size: 40px;
-  margin-left: 15%;
+  margin-left: 3%;
+  font-family: 'Ubuntu', sans-serif;
 }
 .nav-link{
   color: white;
@@ -143,6 +164,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 header {
@@ -192,8 +214,7 @@ header {
 @media (min-width: 768px) {
   .header {
     flex-direction: column;
-    /* justify-content: space-between;
-    align-items: center; */
+
   }
 
   .col-md-5 {
@@ -204,8 +225,6 @@ header {
 @media (max-width: 767px) {
   .header {
     flex-direction: column;
-    /* justify-content: space-between;
-    align-items: center; */
   }
   .right-section {
     display: none !important;
@@ -226,34 +245,6 @@ header {
 }
 
 
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler .fa-bars {
-  color: #fff;
-}
-
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler .fa-bars {
-  color: #fff;
-}
-
-/* Color of the navbar AFTER scroll */
-.navbar-scrolled {
-  background-color: #4C35D2;
-  transition: background-color 0.2s linear;
-}
-
-/* An optional height of the navbar AFTER scroll */
-.navbar.navbar-scroll.navbar-scrolled {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.solid-nav {
-  background-color: #aaa;
-  transition: background-color 0.2s linear;
-}
 
 
 
