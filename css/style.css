@@ -254,6 +254,74 @@ header {
   }
 }
 
+/* SOBRE */
+
+.about-content {
+  position: relative;
+  text-align: left;
+  max-width: 850px;
+  margin-bottom: 3.6rem;
+}
+
+.row-dados {
+  width: 94%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.col-six, .col-1-2 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  padding: 0 20px;
+}
+[class*="col-"], .bgrid {
+  float: left;
+}
+
+.about-content .skill-bars {
+  margin-top: 1.8rem;
+}
+.skill-bars {
+  list-style: none;
+  margin: 6rem 0 3rem;
+}
+
+.skill-bars li {
+  height: 0.6rem;
+  /* background: #a1a1a1; */
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 0;
+  position: relative;
+}
+
+li {
+  display: list-item;
+}
+
+.skill-bars li .percent94 {
+  width: 94%;
+}
+
+.skill-bars li .progress {
+  background: #ffffff;
+  position: relative;
+  height: 100%;
+  color: #000;
+}
+
+.about-content .info-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.about-content .info-list li {
+  padding: 0 0 1.5rem 0;
+  margin-bottom: 0.6rem;
+}
+
 
 
 
