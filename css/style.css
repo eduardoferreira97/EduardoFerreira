@@ -256,75 +256,43 @@ header {
 
 /* SOBRE */
 
-.about-content {
-  position: relative;
+
+.skills {
+  display: flex;
+  margin-bottom: 7%;
+}
+
+.sobre-dados{
+  flex-direction: column;
   text-align: left;
-  max-width: 850px;
-  margin-bottom: 3.6rem;
+  width: 25%;
+  padding-right: 3%;
 }
 
-.row-dados {
-  width: 94%;
-  max-width: 1140px;
-  margin: 0 auto;
+.sobre-dados li{
+  list-style-type: none;
 }
 
-.col-six, .col-1-2 {
-  width: 50%;
+.titulo-skill{
+  margin-bottom: 5%;
 }
 
-[class*="col-"] {
-  padding: 0 20px;
-}
-[class*="col-"], .bgrid {
-  float: left;
+.dados{
+  margin-bottom: 5%;
 }
 
-.about-content .skill-bars {
-  margin-top: 1.8rem;
-}
-.skill-bars {
-  list-style: none;
-  margin: 6rem 0 3rem;
-}
-
-.skill-bars li {
-  height: 0.6rem;
-  /* background: #a1a1a1; */
-  width: 100%;
-  margin-bottom: 3rem;
-  padding: 0;
-  position: relative;
+li h4 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #4C35D2;
+  margin-bottom: 0.5%;
+  font-family: "poppins-bold", sans-serif;
+  font-size: 1.0rem;
 }
 
-li {
-  display: list-item;
+li p{
+  color: black;
 }
-
-.skill-bars li .percent94 {
-  width: 94%;
-}
-
-.skill-bars li .progress {
-  background: #ffffff;
-  position: relative;
-  height: 100%;
-  color: #000;
-}
-
-.about-content .info-list {
-  list-style: none;
-  margin-left: 0;
-}
-
-.about-content .info-list li {
-  padding: 0 0 1.5rem 0;
-  margin-bottom: 0.6rem;
-}
-
-
-
-
 
 
 
