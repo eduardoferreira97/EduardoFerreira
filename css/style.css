@@ -55,6 +55,7 @@
 
 .py-6 {
   text-align: center;
+  margin: 5% 0px 0px 0px !important;
 }
 
 .col16 {
@@ -76,19 +77,6 @@
   margin-bottom: 3%;
 }
 
-.skills{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  width: 100%;
-  /* margin: 0 10% 0 10%; */
-}
-
-.progress{
-  width: 80%;
-
-}
 
 .about-left{
   width: 25%;
@@ -162,6 +150,8 @@
     /* background-color: #4C35D2 ; */
     margin: 2% 0px 0px 5%;
   }
+
+ 
   
 }
 
@@ -252,12 +242,29 @@ header {
 
 /* SOBRE */
 
+.texto-sobre{
+  width: 65%;
+}
+
+.borda{
+  background-color: white !important;
+  color: #4C35D2;
+  border-color: #4C35D2
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  /* margin: 0 10% 0 10%; */
+}
 
 .skills {
-  display: flex;
   margin-bottom: 7%;
   flex-direction: row;
-  margin: 10% 0px 7% 0px;
+  margin: 5% 0px 7% 0px;
 }
 
 .sobre-dados{
@@ -315,9 +322,22 @@ li h4 {
     flex-direction: column;
   }
 
+  .botao{
+    flex-direction: row !important;
+    
+  }
+
+  .diferente{
+    text-align: center;
+  }
+
   .sobre-dados{
     width: 100%;
 
+  }
+
+  .texto-sobre{
+    width: 100%;
   }
 
   .skill-jump{

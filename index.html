@@ -85,7 +85,7 @@
             <h4 class="fw-bold">Venha me conhecer um pouco mais</h4>
         </div>
         <!-- Texto + Imagem -->
-        <div style="margin: 0px 6% 0px;">
+        <div style="margin: 0px 2% 0px;">
             <div class="row" id="sobre">
                 <div class="col-md-6 col16">
                     <img class="imagem" src="./assets/eu-boa.jpg" alt="">
@@ -95,7 +95,7 @@
                         <h4 class="fw-bold">Oi, eu sou <strong class="timeline-title">Eduardo</strong>
                         </h4>
                     </div>
-                    <div style="text-align: justify;">
+                    <div class="texto-sobre" style="text-align: justify;">
                         <p>Tenho
                             <span id="idade"></span> anos e sou de Recife - PE. <br>
                             Estou cursando Engenharia da Computação na Universidade de Pernambuco (POLI/UPE) e estou
@@ -104,10 +104,19 @@
                             Gosto de trabalhar em equipe e ajudar as pessoas, busco sempre aprimorar minhas habilidades
                             através da análise e coperação nas relações entre o cliente e a organização.
                         </p>
-                    </div>
-                    <div class="col-md-6 bbtn">
-                        <a href="" target="_blank" type="button" class="btn btn-primary">Currículo</a>
+                        <div class="skills botao">
+                            <div class="col-md-6 bbtn">
+                                <!-- <a href="" target="_blank" type="button" class="btn btn-primary borda">Contato</a> -->
+                                <button type="button" class="btn btn-outline-primary btn-primary borda"
+                                    data-mdb-ripple-color="dark">Primary</button>
+                            </div>
+                            <div class="col-md-6 bbtn">
+                                <a href="./arquivos/Currículo - Eduardo José Ferreira de Souza.pdf"
+                                    download="CV - Eduardo Ferreira" target="_blank" type="button"
+                                    class="btn btn-primary">Currículo</a>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,6 +155,7 @@
                         <h4>Email:</h4>
                         <p class="text-muted">eduardoferreira.dev@gmail.com</p>
                     </li>
+
                 </ul>
             </div>
             <div class="sobre-dados">
@@ -154,7 +164,7 @@
                         <h4 class="titulos">Skills</h4>
                     </li>
                     <li class=" skill-jump" style="margin-bottom: 17%;">
-                        <p class="text-muted" style="letter-spacing: -0.4px;">Minhas especialidades </p>
+                        <p class="text-muted diferente" style="letter-spacing: -0.4px;">Minhas especialidades </p>
                     </li>
 
                     <li class="dados">
@@ -195,7 +205,9 @@
                     </li>
 
                 </ul>
+
             </div>
+
         </section>
 
         <!-- LINHA DO TEMPO -->
