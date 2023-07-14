@@ -256,10 +256,11 @@ header {
 .skills {
   display: flex;
   margin-bottom: 7%;
+  flex-direction: row;
+  margin: 10% 0px 7% 0px;
 }
 
 .sobre-dados{
-  flex-direction: column;
   text-align: left;
   width: 25%;
   padding-right: 3%;
@@ -267,10 +268,12 @@ header {
 
 .sobre-dados li{
   list-style-type: none;
+  
 }
 
 .titulo-skill{
   margin-bottom: 5%;
+ 
 }
 
 .dados{
@@ -284,6 +287,46 @@ li h4 {
   margin-bottom: 0.5%;
   font-family: "poppins-bold", sans-serif;
   font-size: 0.96rem;
+}
+
+.w3-container{
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  margin-bottom: 8%;
+  font-size: 70%;
+  height: 14px; 
+  background-color: #4C35D2 !important
+}
+
+.w3-light-grey{
+  width: 100%;
+  background-color: #f1f1f1 !important;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 600px){
+  .skills{
+    flex-direction: column;
+  }
+
+  .sobre-dados{
+    width: auto;
+  }
+
+  .skill-jump{
+
+    margin: 0px 0px 10% 0px
+  }
+
+  .titulo-skill{
+    text-align: center;
+  }
+
+  .titulo-jump{
+    margin-top: 2.8rem;
+  }
 }
 
 
