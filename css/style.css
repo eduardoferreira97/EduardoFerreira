@@ -249,7 +249,18 @@ header {
 .borda{
   background-color: white !important;
   color: #4C35D2;
-  border-color: #4C35D2
+  border-color: #4C35D2;
+}
+
+.borda:hover{
+  color: #5d4ace;
+  border-color: #5d4ace !important;
+
+}
+
+.sem-borda:hover{
+  background-color: #5d4ace;
+
 }
 
 .skills{
@@ -258,7 +269,6 @@ header {
   align-items: center;
   text-align: left;
   width: 100%;
-  /* margin: 0 10% 0 10%; */
 }
 
 .skills {
