@@ -276,6 +276,10 @@ header {
  
 }
 
+.titulos{
+   font-size: 1.3rem;
+}
+
 .dados{
   margin-bottom: 5%;
 }
@@ -312,7 +316,8 @@ li h4 {
   }
 
   .sobre-dados{
-    width: auto;
+    width: 100%;
+
   }
 
   .skill-jump{
