@@ -372,4 +372,35 @@ li h4 {
   margin: 0px 3% 0px 3%;
 }
 
+.card-img-top{
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.efeito:hover .card-img-top {
+  opacity: 0.3;
+}
+
+.efeito:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  /* background-color: #04AA6D; */
+  color: #4C35D2;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 
