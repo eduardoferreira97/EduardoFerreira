@@ -16,7 +16,10 @@
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <!-- FADE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <link rel="icon" type="image/x-icon" href="../portifolio/assets/icons8-trabalhando-com-um-laptop-96.png">
 
@@ -80,12 +83,12 @@
         <!-- SOBRE -->
 
         <!-- Título -->
-        <div class="py-6" style="padding-bottom: 3%; margin-top: 10%;">
+        <div data-aos="fade-up" data-aos-duration="1500" class="py-6" style="padding-bottom: 3%; margin-top: 10%;">
             <h3 class="timeline-title">Sobre</h3>
             <h4 class="fw-bold">Venha me conhecer um pouco mais</h4>
         </div>
         <!-- Texto + Imagem -->
-        <div style="margin: 0px 2% 0px;">
+        <div data-aos="fade-up" data-aos-duration="1500" style="margin: 0px 2% 0px;">
             <div class="row" id="sobre">
                 <div class="col-md-6 col16">
                     <img class="imagem" src="./assets/eu-boa.jpg" alt="">
@@ -122,7 +125,7 @@
         </div>
 
         <!-- Dados + Skills -->
-        <section class="skills">
+        <section data-aos="fade-up" data-aos-duration="1500" class="skills">
             <div class="sobre-dados">
                 <ul>
                     <li class="titulo-skill">
@@ -212,7 +215,7 @@
         <!-- LINHA DO TEMPO -->
 
         <!-- Título -->
-        <div class="py-6">
+        <div data-aos="fade-right" data-aos-duration="1500" class="py-6">
             <h3 class="timeline-title">Resumo</h3>
             <h3 class="fw-bold">Minhas qualificações</h3>
             <p>Um pouco da minha trajetória no mundo da programação</p>
@@ -224,7 +227,7 @@
             <section class="py-5">
                 <h3 class="timeline-title" style="margin-left: 1%;">Experiências Profissionais</h3>
                 <br>
-                <ul class="timeline-with-icons">
+                <ul data-aos="fade-right" data-aos-duration="1500" class="timeline-with-icons">
                     <li class="timeline-item mb-5">
                         <span class="timeline-icon">
                             <img src="./assets/icons8-trabalhando-com-um-laptop-96.png" alt="">
@@ -296,9 +299,10 @@
                     </li>
 
                 </ul>
-                <h3 class="timeline-title" style="margin-left: 1%;">Educação</h3>
+                <h3 data-aos="fade-left" data-aos-duration="1500" class="timeline-title" style="margin-left: 1%;">
+                    Educação</h3>
                 <br>
-                <ul class="timeline-with-icons">
+                <ul data-aos="fade-left" data-aos-duration="1500" class="timeline-with-icons">
                     <li class="timeline-item mb-5">
                         <span class="timeline-icon">
                             <img src="./assets/icons8-chapéu-de-formatura-96.png" alt="">
@@ -328,9 +332,35 @@
 
         <!-- PORTIFÓLIO -->
 
-        <div class="py-6" style="padding-bottom: 3%; margin-top: 10%;">
+        <div data-aos="fade-up" data-aos-duration="1500" class="py-6" style="padding-bottom: 3%; margin-top: 10%;">
             <h3 class="timeline-title">Portifólio</h3>
             <h4 class="fw-bold">Meus projetos</h4>
+        </div>
+
+        <div class="portifolio">
+            <div class="card">
+                <div data-aos="zoom-in" data-aos-duration="1500" class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
+                                alt="Hollywood Sign on The Hill" />
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col">
+                        <div class="card">
+                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+                                alt="Palm Springs Road" />
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="col">
+                        <div class="card">
+                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+                                alt="Los Angeles Skyscrapers" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
     </main>
@@ -342,6 +372,8 @@
 </body>
 
 </html>
-
+<script>
+    AOS.init();
+</script>
 <script type="text/javascript" src="./js/idade.js"></script>
 <script type="text/javascript" src="./js/transição.js"></script>

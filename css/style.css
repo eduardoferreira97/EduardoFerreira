@@ -364,4 +364,12 @@ li h4 {
   }
 }
 
+/* PORTIFÓLIO */
+
+.portifolio{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 3% 0px 3%;
+}
+
 
