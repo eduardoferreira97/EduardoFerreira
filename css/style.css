@@ -366,12 +366,15 @@ li h4 {
 
 /* PORTIFÓLIO */
 
-.portifolio{
+.portifolio-card{
   display: flex;
   flex-direction: row;
-  margin: 0px 3% 0px 3%;
+  padding: 0px 3% 0px 3%;
 }
 
+.card{
+  --mdb-card-box-shadow: 0 !important;
+}
 .card-img-top{
   transition: .5s ease;
   backface-visibility: hidden;
@@ -397,10 +400,15 @@ li h4 {
 }
 
 .text {
-  /* background-color: #04AA6D; */
   color: #4C35D2;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 16px 26px;
 }
 
+.tipo{
+  font-size: 12px;
+  color: #4C35D2;
+  font-weight:600;
+}
 
