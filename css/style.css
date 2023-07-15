@@ -412,3 +412,35 @@ li h4 {
   font-weight:600;
 }
 
+
+/* FOOTER */
+
+.formulario{
+  margin: 17px 30%;
+}
+
+.formulario input,textarea{
+  border-bottom: 1px solid gray!important;
+  border-radius: 0px !important;
+}
+
+.for-1:hover {
+  border-color: #4C35D2 !important;
+}
+
+.for-2:hover{
+  border-color: #4C35D2 !important;
+}
+
+.for-3:hover{
+  border-color: #4C35D2 !important;
+}
+
+.for-4:hover{
+  border-color: #4C35D2 !important;
+}
+
+.dados{
+  display: flex;
+  flex-direction: row;
+}

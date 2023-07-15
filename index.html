@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Eduardo Ferreira</title>
+    <title>Eduardo Ferreira - Portifólio</title>
 </head>
 
 <body>
@@ -217,7 +217,7 @@
         <!-- Título -->
         <div data-aos="fade-right" data-aos-duration="1500" class="py-6">
             <h3 class="timeline-title">Resumo</h3>
-            <h3 class="fw-bold">Minhas qualificações</h3>
+            <h1 class="fw-bold">Minhas qualificações</h1>
             <p>Um pouco da minha trajetória no mundo da programação</p>
         </div>
         <!-- Timeline -->
@@ -332,9 +332,9 @@
         </div>
 
         <!-- PORTIFÓLIO -->
-        <div data-aos="fade-up" data-aos-duration="1500" class="py-6" style="padding-bottom: 1%; margin-top: 10%;">
+        <div data-aos="zoom-in" data-aos-duration="1500" class="py-6" style="padding-bottom: 1%; margin-top: 10%;">
             <h3 class="timeline-title">Portifólio</h3>
-            <h4 class="fw-bold">Meus projetos</h4>
+            <h1 class="fw-bold">Meus projetos</h1>
         </div>
 
         <div class="portifolio-card">
@@ -379,18 +379,62 @@
                 </div>
             </div>
         </div>
-
     </main>
 
     <footer>
+        <!-- Título -->
+        <div data-aos="fade-up" data-aos-duration="1500" class="py-6" style="padding-bottom: 3%;">
+            <h3 class="timeline-title">Contato</h3>
+            <h1 class="fw-bold">Vamos lá?!</h1>
+            <p>Preencha o formulário abaixo para esclarermos suas dúvidas!</p>
+        </div>
+        <!-- Formulário -->
+        <div class="formulario">
+            <div class="modal-body">
+                <form method="POST" action="https://formsubmit.co/projetodjango23@gmail.com"
+                    enctype="multipart/form-data">
+                    <div class="form-outline">
+                        <input type="text" id="typeText" class="form-control for-1" />
+                        <label class="form-label" for="typeText">Nome</label>
+                    </div>
+                    <br>
+                    <div class="form-outline">
+                        <input type="text" id="typePhone" class="form-control for-2" />
+                        <label class="form-label" for="typeText">Assunto</label>
+                    </div>
+                    <br>
+                    <div class="form-outline">
+                        <input type="email" id="typeEmail" class="form-control for-3" />
+                        <label class="form-label" for="typeEmail">Email</label>
+                    </div>
+                    <br>
+                    <div class="form-outline">
+                        <textarea class="form-control for-4" id="textAreaExample" rows="5"></textarea>
+                        <label class="form-label" for="textAreaExample">Mensagem</label>
+                    </div>
+                    <div class="modal-footer" style="margin-top: 3%;">
+                        <!-- <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Fechar</button> -->
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="dados">
+
+        </div>
 
     </footer>
 
 </body>
 
 </html>
+
+<!-- Adiciona o Fade no site -->
 <script>
     AOS.init();
 </script>
+
+
 <script type="text/javascript" src="./js/idade.js"></script>
 <script type="text/javascript" src="./js/transição.js"></script>
