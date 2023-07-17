@@ -73,9 +73,9 @@
   width: auto !important;
   padding-left: 0px !important;
 }
-.row{
+/* .row{
   margin-bottom: 3%;
-}
+} */
 
 
 .about-left{
@@ -420,7 +420,7 @@ li h4 {
 }
 
 .formulario input,textarea{
-  border-bottom: 1px solid gray!important;
+  border-bottom: 2px solid gray!important;
   border-radius: 0px !important;
 }
 
@@ -440,7 +440,44 @@ li h4 {
   border-color: #4C35D2 !important;
 }
 
-.dados{
+.container, .row{
+  margin-bottom: 0px !important;
+}
+
+.informacoes{
   display: flex;
   flex-direction: row;
+  align-items: center !important;
+}
+
+.informações .p-3{
+  width: 80%;
+  align-items: center !important;
+}
+.p-3{
+  width: 80% !important;
+  margin: auto;
+}
+
+
+.btn-floating{
+  width: 40px;
+	height: 40px;
+	border-radius: 70%;
+  align-items: center;
+}
+
+.linkedin:hover{
+background-color: #0082ca !important;
+}
+
+.github:hover{
+ background-color: #333333 !important;
+}
+
+.col-xl-3{
+  width: 35% !important;
+}
+.sociais{
+  margin-bottom: 4%;
 }
