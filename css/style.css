@@ -1,3 +1,5 @@
+/* * { border: solid 1px red;
+} */
 /* CSS da TIMELINE */
 
 .timeline-with-icons {
@@ -73,9 +75,9 @@
   width: auto !important;
   padding-left: 0px !important;
 }
-/* .row{
+.row{
   margin-bottom: 3%;
-} */
+}
 
 
 .about-left{
@@ -151,15 +153,13 @@
     margin: 2% 0px 0px 5%;
   }
 
- 
-  
 }
 
 /* HEADER */
 
 body {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -168,7 +168,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  padding: 20px;
+  /* padding: 20px; */
   width: 100%;
   height: 100vh;
   color: white;
@@ -459,7 +459,6 @@ li h4 {
   margin: auto;
 }
 
-
 .btn-floating{
   width: 40px;
 	height: 40px;
@@ -480,4 +479,28 @@ background-color: #0082ca !important;
 }
 .sociais{
   margin-bottom: 4%;
+}
+
+@media (max-width:600px) {
+  .col-xl-3{
+    width: 80% !important;
+  }
+
+  .informacoes{
+    flex-direction: column;
+    margin-bottom: 8%;
+    margin-top: 5%;
+  }
+
+  .p-3{
+    height: 5rem;
+  }
+
+  .mt-5{
+    margin-top: 0px !important;
+  }
+
+  .formulario{
+    margin: 0px 5% 0px 5%;
+  }
 }
