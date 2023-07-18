@@ -1,5 +1,5 @@
-* { border: solid 1px red;
-}
+/* * { border: solid 1px red;
+} */
 
 .navbar-brand{
   width: 80% !important;
@@ -153,8 +153,8 @@
   .bbtn{
     align-items: center;
   }
-  .btn-primary{
-    /* background-color: #4C35D2 ; */
+  .fa-bars{
+    background-color: #4C35D2 !important;
     
     margin: 2% 0px 0px 5%;
   }
@@ -174,7 +174,16 @@
   }
 
   #navbar{
-    width: 90% !important;
+    width: 100% !important;
+    
+  }
+
+  header{
+    width: 100% !important;
+  }
+
+  main{
+    overflow-x: hidden
   }
 
 }
