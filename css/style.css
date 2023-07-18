@@ -1,5 +1,10 @@
-/* * { border: solid 1px red;
-} */
+* { border: solid 1px red;
+}
+
+.navbar-brand{
+  width: 80% !important;
+}
+
 /* CSS da TIMELINE */
 
 .timeline-with-icons {
@@ -26,7 +31,7 @@
 
 .timeline-with-icons .timeline-icon {
   position: absolute;
-  left: -48px;
+  left: -48px;  
   background-color: white;
   color: hsl(217, 88.8%, 35.1%);
   border-radius: 50%;
@@ -150,7 +155,26 @@
   }
   .btn-primary{
     /* background-color: #4C35D2 ; */
+    
     margin: 2% 0px 0px 5%;
+  }
+
+  .title-nav{
+    color: white;
+    font-size: 30px;
+  }
+
+  .navbar-brand{
+    width: 70% !important;
+  }
+
+  .container-fluid{
+    width: 100% !important;
+    margin-left: 3%;
+  }
+
+  #navbar{
+    width: 90% !important;
   }
 
 }
@@ -158,8 +182,9 @@
 /* HEADER */
 
 body {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
+  
   font-family: 'Ubuntu', sans-serif;
 }
 
