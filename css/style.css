@@ -1,12 +1,8 @@
+/* NAVBAR */
+
 .navbar-brand{
   width: 80% !important;
 }
-
-/* NAVBAR */
-.imagem{
-  border-radius: 50px 50px 50px 50px ;
-}
-
 .title-nav{
   color: white;
   font-size: 40px;
@@ -107,12 +103,12 @@ header {
 
 .titulo-header{
   font-size: 80px;
-  font-weight: bold;
+  font-weight: bolder;
   
 }
 .subtitulo{
   font-size: 30px;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: 'Lora';
 }
 
@@ -152,10 +148,12 @@ header {
   }
   .titulo-header{
     font-size: 2.5rem;
+    font-weight: bolder;
   }
   .subtitulo{
     font-size: 1.2rem;
     margin: 7% 5% ;
+    font-weight: bolder;
   }
 
   .sobre{
@@ -170,20 +168,21 @@ header {
 
 /* SOBRE */
 
-.col-md-6 img {
+.col-md-6 img{
   width: 19.5rem;
   height: 20.6rem;
   padding-left: 10%;
-}
-.col-md-6 img{
   margin-left: 60%;
-  width: auto !important;
+  width: 150px !important;
+  height: 150px !important;
   padding-left: 0px !important;
+  border-radius: 70%;
 }
+
+
 .row{
   margin-bottom: 3%;
 }
-
 
 .about-left{
   width: 25%;
@@ -361,6 +360,14 @@ li h4 {
 }
 
 @media (max-width: 600px){
+
+  .imagem{
+    margin-left: 30% !important;
+  }
+
+  .col16{
+    width: 100% !important;
+  }
   
   .py-5{
     margin-left: 12%;
