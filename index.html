@@ -389,31 +389,34 @@
         <!-- Formulário -->
         <div class="formulario">
             <div class="modal-body">
-                <form method="POST" action="https://formsubmit.co/projetodjango23@gmail.com"
+                <form method="POST" name="form_contato" action="https://formsubmit.co/projetodjango23@gmail.com"
                     enctype="multipart/form-data">
                     <div data-aos="fade-right" data-aos-duration="1500" class="form-outline">
-                        <input type="text" id="typeText" class="form-control for-1" />
+                        <input type="text" name="nome" id="typeText" class="form-control for-1" />
                         <label class="form-label" for="typeText">Nome</label>
                     </div>
                     <br>
                     <div data-aos="fade-right" data-aos-duration="1500" class="form-outline">
-                        <input type="text" id="typePhone" class="form-control for-2" />
+                        <input type="text" name="assunto" id="typePhone" class="form-control for-2" />
                         <label class="form-label" for="typeText">Assunto</label>
                     </div>
                     <br>
                     <div data-aos="fade-right" data-aos-duration="1500" class="form-outline">
-                        <input type="email" id="typeEmail" class="form-control for-3" />
+                        <input type="email" name="email" id="typeEmail" class="form-control for-3" />
                         <label class="form-label" for="typeEmail">Email</label>
                     </div>
                     <br>
                     <div data-aos="fade-right" data-aos-duration="1500" class="form-outline">
-                        <textarea class="form-control for-4" id="textAreaExample" rows="5"></textarea>
+                        <textarea class="form-control for-4" name="mensagem" id="textAreaExample" rows="5"></textarea>
                         <label class="form-label" for="textAreaExample">Mensagem</label>
                     </div>
                     <div data-aos="fade-right" data-aos-duration="1500" class="modal-footer" style="margin-top: 3%;">
 
-                        <button type="button" class="btn btn-primary">Enviar</button>
+                        <button type="button" class="btn btn-primary" type="submit" name="Enviar"
+                            value="Enviar">Enviar</button>
+                        <input class="btn btn-primary" type="submit" name="Enviar" value="Enviar" />
                     </div>
+
                 </form>
             </div>
         </div>
