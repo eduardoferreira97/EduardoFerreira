@@ -1,4 +1,4 @@
-# Welcome to My Profile! 👋
+# Welcome to my Portifolio! 👋
 
 Hello, I'm Eduardo, a technology enthusiast passionate about software development. Here you'll find a collection of my projects, ranging from simple experiments to significant contributions. Feel free to explore!
 
