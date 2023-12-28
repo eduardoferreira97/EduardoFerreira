@@ -22,6 +22,7 @@ I'm always eager to learn new things. Currently, I'm focused on enhancing my ski
 
 - [LinkedIn](https://www.linkedin.com/in/eduardo-ferreira-05b32a172/)
 - [Portfolio](https://eduardoferreira97.github.io/EduardoFerreira/)
+- [Email] eduardoferreira.dev@gmail.com
 
 ## 📈 GitHub Stats
 
