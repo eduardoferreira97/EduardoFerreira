@@ -10,7 +10,7 @@ Hello, I'm Eduardo, a technology enthusiast passionate about software developmen
 
 ## 🌱 Currently Learning
 
-I'm always eager to learn new things. Currently, I'm focused on enhancing my skills in **Vue.js**.
+I'm always eager to learn new things. Currently, I'm focused on enhancing my skills in **React**.
 
 ## 🚀 Featured Projects
 
